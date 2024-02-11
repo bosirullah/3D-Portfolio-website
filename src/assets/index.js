@@ -45,6 +45,7 @@ import tripguide from "./tripguide.png";
 import calc from "./calc.jpeg";
 import proforma from "./proforma.jpeg";
 import ethDapp from "./ethDapp.jpeg";
+import todoList from './todoList.jpeg';
 
 
 export {
@@ -81,6 +82,7 @@ export {
   calc,
   proforma,
   ethDapp,
+  todoList,
   tripguide,
   linux,
   cpp,

@@ -25,6 +25,7 @@ import {
     calc,
     proforma,
     ethDapp,
+    todoList,
     tripguide,
     threejs,
     linux,
@@ -244,9 +245,9 @@ const projects = [
         source_code_link: "https://github.com/bosirullah/Bhms_proforma",
     },
     {
-        name: "Calculator",
+        name: "TodoList Webapp",
         description:
-        "At a glance, it may resemble a standard calculator app, yet it boasts an extra layer of versatility. Uniquely, this app offers users the ability to switch between diverse themes and seamlessly toggle between three distinct operational modes.",
+        "User can login and have his/her own todoList account. Successfully integrated essential features including task creation, editing, and deletion capabilities. This enhancement significantly improved the user experience, contributing to the overall functionality and usability of the application.",
         tags: [
         {
             name: "html",
@@ -261,9 +262,9 @@ const projects = [
             color: "pink-text-gradient",
         },
         ],
-        image: calc,
-        live_website_link: "https://bosirullah.github.io/calculator-app/",
-        source_code_link: "https://github.com/bosirullah/calculator-app",
+        image: todoList,
+        live_website_link: "https://todolist-app-awu8.onrender.com/",
+        source_code_link: "https://github.com/bosirullah/todoList-app",
     },
     {
         name: "payEth Dapp",

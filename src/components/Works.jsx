@@ -10,8 +10,6 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 import { Carousel } from "@material-tailwind/react";
 
-
-
 const ProjectCard  = ({ index, name, description, tags, image, live_website_link, source_code_link}) => {
   return(
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,14 +30,14 @@ const ProjectCard  = ({ index, name, description, tags, image, live_website_link
               onClick={() => window.open(live_website_link,"_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img src={live} alt="live" className='w-1/2 h-1/2' object-contain />
+              <img src={live} alt="live" className='w-1/2 h-1/2 object-contain' />
             </div>
 
             <div 
               onClick={() => window.open(source_code_link,"_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img src={github} alt="github" className='w-1/2 h-1/2' object-contain />
+              <img src={github} alt="github" className='w-1/2 h-1/2 object-contain' />
             </div>
           </div>
         </div>
@@ -97,7 +95,7 @@ const Works = () => {
       
 
       <div className="mt-20 flex flex-wrap gap-7">
-        <Carousel transition={{ duration: 1 }}>
+        <Carousel transition={{ duration: 1 }} className="h-full">
           {projectChunks.map((chunk, chunkIndex) => (
             <div key={`chunk-${chunkIndex}`} className="flex flex-wrap gap-6">
               {chunk.map((project, index) => (

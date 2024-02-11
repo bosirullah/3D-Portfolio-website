@@ -40,8 +40,8 @@ const Navbar = () => {
           
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Md Bosirullah Mondal&nbsp;
-            <span className='sm:block hidden'> 
-              | full stack Blockchain Developer
+            <span className='lg:block hidden'> 
+              | full stack Blockchain Dev
             </span>
           </p>
           
