@@ -24,6 +24,7 @@ import {
     jobit,
     calc,
     proforma,
+    chatBuzz,
     ethDapp,
     todoList,
     tripguide,
@@ -115,15 +116,15 @@ const technologies = [
     },
     {
         name: "solidity",
-        icon: solidity
+        icon: solidity,
     },
     {
         name: "ethersJs",
-        icon: ethersJs
+        icon: ethersJs,
     },
     {
         name: "hardhat",
-        icon: hardhat
+        icon: hardhat,
     },
 ];
 
@@ -148,10 +149,10 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
@@ -161,10 +162,10 @@ const experiences = [
         iconBg: "#383E56",
         date: "Jan 2022 - Jan 2023",
         points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
@@ -174,10 +175,10 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",
         points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
 ];
@@ -185,7 +186,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
         name: "Sara Lee",
         designation: "CFO",
         company: "Acme Co",
@@ -193,7 +194,7 @@ const testimonials = [
     },
     {
         testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "I've never met a web developer who truly cares about their clients' success like Rick does.",
         name: "Chris Brown",
         designation: "COO",
         company: "DEF Corp",
@@ -201,7 +202,7 @@ const testimonials = [
     },
     {
         testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
         name: "Lisa Wang",
         designation: "CTO",
         company: "456 Enterprises",
@@ -213,54 +214,92 @@ const projects = [
     {
         name: "BHMS Proforma",
         description:
-        "Medical professionals and aspiring students at Homoeopathy Medical College have traditionally relied on paper-based casetaking. So Digitizing Case Taking and Patient Management among Homeopathy Medical students and doctors.",
+            "Medical professionals and aspiring students at Homoeopathy Medical College have traditionally relied on paper-based casetaking. So Digitizing Case Taking and Patient Management among Homeopathy Medical students and doctors.",
         tags: [
-        {
-            name: "html",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "css",
-            color: "green-text-gradient",
-        },
-        {
-            name: "javascript",
-            color: "pink-text-gradient",
-        },
-        {
-            name: "ejs",
-            color: "orange-text-gradient",
-        },
-        {
-            name: "expressJs",
-            color: "text-lime-600",
-        },
-        {
-            name: "mongoDB",
-            color: "text-yellow-600",
-        },
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "ejs",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "expressJs",
+                color: "text-lime-600",
+            },
+            {
+                name: "mongoDB",
+                color: "text-yellow-600",
+            },
         ],
         image: proforma,
         live_website_link: "https://bhmsproforma.onrender.com/",
         source_code_link: "https://github.com/bosirullah/Bhms_proforma",
     },
     {
+        name: "ChatBuzz Application",
+        description:
+            "Developed a chat application utilizing the MERN stack and Chakra UI library for enhanced interface design. Implemented single and group chat functionalities leveraging socket.io technology, showcasing adeptness in real-time communication systems.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Chakra UI",
+                color: "green-text-gradient",
+            },
+            {
+                name: "socket.io",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "nodeJs",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "expressJs",
+                color: "text-lime-600",
+            },
+            {
+                name: "mongoDB",
+                color: "text-green-600",
+            },
+            {
+                name: "mongoose",
+                color: "text-yellow-600",
+            },
+        ],
+        image: chatBuzz,
+        live_website_link: "https://mdbosirportfolio.netlify.app/",
+        source_code_link: "https://github.com/bosirullah/3D-Portfolio-website",
+    },
+    {
         name: "TodoList Webapp",
         description:
-        "User can login and have his/her own todoList account. Successfully integrated essential features including task creation, editing, and deletion capabilities. This enhancement significantly improved the user experience, contributing to the overall functionality and usability of the application.",
+            "User can login and have his/her own todoList account. Successfully integrated essential features including task creation, editing, and deletion capabilities. This enhancement significantly improved the user experience, contributing to the overall functionality and usability of the application.",
         tags: [
-        {
-            name: "html",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "css",
-            color: "green-text-gradient",
-        },
-        {
-            name: "javascript",
-            color: "pink-text-gradient",
-        },
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
         ],
         image: todoList,
         live_website_link: "https://todolist-app-awu8.onrender.com/",
@@ -269,28 +308,28 @@ const projects = [
     {
         name: "payEth Dapp",
         description:
-        "Here any user can pay ether as a thanks to the website developer using his/her meta mask account. His name will be visible on a table which was made using React’s Material UI.",
+            "Here any user can pay ether as a thanks to the website developer using his/her meta mask account. His name will be visible on a table which was made using React’s Material UI.",
         tags: [
-        {
-            name: "ReactJs",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "MUI",
-            color: "text-yellow-600",
-        },
-        {
-            name: "solidity",
-            color: "green-text-gradient",
-        },
-        {
-            name: "Hardhat",
-            color: "pink-text-gradient",
-        },
-        {
-            name: "ethersJs",
-            color: "text-lime-600",
-        },
+            {
+                name: "ReactJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MUI",
+                color: "text-yellow-600",
+            },
+            {
+                name: "solidity",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Hardhat",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "ethersJs",
+                color: "text-lime-600",
+            },
         ],
         image: ethDapp,
         live_website_link: "https://ethdapp.netlify.app/",
@@ -299,25 +338,25 @@ const projects = [
     {
         name: "Calculator",
         description:
-        "At a glance, it may resemble a standard calculator app, yet it boasts an extra layer of versatility. Uniquely, this app offers users the ability to switch between diverse themes and seamlessly toggle between three distinct operational modes.",
+            "At a glance, it may resemble a standard calculator app, yet it boasts an extra layer of versatility. Uniquely, this app offers users the ability to switch between diverse themes and seamlessly toggle between three distinct operational modes.",
         tags: [
-        {
-            name: "html",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "css",
-            color: "green-text-gradient",
-        },
-        {
-            name: "javascript",
-            color: "pink-text-gradient",
-        },
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
         ],
         image: calc,
         live_website_link: "https://bosirullah.github.io/calculator-app/",
         source_code_link: "https://github.com/bosirullah/calculator-app",
-    }
+    },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
